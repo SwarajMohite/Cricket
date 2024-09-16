@@ -3,51 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Government Polytechnic Pune</title>
+    <title>XYZ Organization Cricket Tournament</title>
     <link rel="stylesheet" href="styles.css">
-   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <div class="head">
-    <header >
-        <nav>
-            <div class="left">
-                X. Y. Z Cricket Club</span>
-            </div>
-            <div class="right">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Tournaments</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Testmonial</a></li>
-                </ul>
-            </div>
-        </nav>
-    </header>
-    <main>
-        <div class="msg1">
-        Welcome<br> to<br> <b>X. Y. Z Cricket Club</b>
-    </div><br>
-        <marquee><center>The Top Most and Most Trustable Club of Cricket in Maharastra<br>Where Descipline meets Sportsmanship</center></marquee>
-    </main></div><br><hr>
-    <section class="firstSection"><i>About</i><br><br>
-        X. Y. Z. Cricket Club  is established in the year (a.b.c year). Institute is awarded autonomy in May 1994. It houses in its 28 acre campus: main building, main ground, Player Area and Club,Motivating building, staff quarters, workshop building, exam section building, conference halls, hostels, classrooms for various disciplines, library, canteen, mess, post office, cooperative stores, etc.
-        <br><br>
-        Over the last four decades, several thousand Cricket Players passed out from various disciplines are contributing their expertise for industries and various club. Club has won several prestigious awards in sports as well as socio-cultural activities. Overall, contribution of this club in sports education of country and development of a progressive society is significant.</section>
-        <section class="secondSection">
-            <div class="vision"><i>Vision</i><br><br>To develop self-reliant, versatile, innovative, quality conscious player for betterment of society.</div>
-            <br><div class="mission"><i>Mission</i><br><br>1. Imparting updated curriculum in association with stakeholders.
-                <br>2. Providing with the state of sports infrastructure & facilities.
-                <br>3. Set up strategic alliance with cricket.
-                <br>4. Enhancing Sportsmanship.
-                <br>5. Continuous development of players.</div>
-        </section>
-        <section class="thirdSection"><i>Contact Info</i><br><br>
-           <br> X. Y. Z. Cricket Club, City, District-(pin-code), State, Country.
-            <br>contact-no.1, contact-no.2 (Head)
-            <br>contact-no.main
-            <br>head@xyzcricket.club.in</section>
-            <footer class="footer">&copy; All Rights Reserved</footer>
+
+    <nav>
+       
+        <p class="logo">
+           <span><h1>XYZ</h1></span> 
+        </p>
+   <div class="content">
+        <ul  class="navlinks">
+            <li><a class="active" href="#"><i class="fa-solid fa-house"></i>HOME</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>About</a></li>
+            <li><a href="#"><i class="fa-solid fa-people-group"></i>Teams</a></li>
+            <li><a href="#"><i class="fa-solid fa-calendar-days"></i>Schedule</a></li>
+            <li><a class="ctn" href="#"><i class="fa-solid fa-phone"></i>Contact</a></li>
+        </ul>
+        <i id="menu" class="fa-solid fa-bars"></i>
+    </div>   
+    </nav>
+<div class="all">    
+   <div class="marq">
+    <marquee>Welcome To The XYZ Organization Cricket Tournament</marquee>
+   </div>
+<div class="main">
+   <section id="home">
+    <div class="container">
+        <h2>Welcome to the XYZ Organization Cricket Tournament</h2>
+        <p>Join us for an exciting series of matches!</p>
+        <a href="#register" class="btn">Register Now</a>
+    </div>
+</section>
+
+<section id="about">
+    <div class="container">
+        <h2>About the Tournament</h2>
+        <p><b>XYZ Organization</b> is proud to host this cricket tournament, bringing together teams from across the region.</p>
+    </div>
+</section>
+
+<section id="teams">
+    <div class="container">
+        <h2>Participating Teams</h2>
+        <ul>
+            <li>Team A</li>
+            <li>Team B</li>
+            <li>Team C</li>
+            <li>Team D</li>
+        </ul>
+    </div>
+</section>
+
+<section id="schedule">
+    <div class="container">
+        <h2>Match Schedule</h2>
+        <table>
+            <tr>
+                <th>Date</th>
+                <th>Teams</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>2024-09-20</td>
+                <td>Team A vs Team B</td>
+                <td>10:00 AM</td>
+            </tr>
+            <tr>
+                <td>2024-09-21</td>
+                <td>Team C vs Team D</td>
+                <td>2:00 PM</td>
+            </tr>
+        </table>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+</div>
+<footer>
+    <div class="container">
+        <p>© 2024 XYZ Organization. All rights reserved.</p>
+    </div>
+</footer>
+</div>
 </body>
 </html>
